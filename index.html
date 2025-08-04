@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container"> <h1 class="text">Admission Form</h1>
+
+        <div>
+            <label for="fullname">Name: </label>
+            <input type="text" id="fullname" placeholder="Full Name" required>
+            <p class="hidden" id="hiddenName">Enter Proper Name</p><br>
+        </div>
+
+        <div>
+            <label for="fathername">Father Name: </label>
+            <input type="text" id="fathername" placeholder="Fathe name" required>
+            <p class="hidden" id="hiddenFatherName">Enter father Name</p><br>
+        </div>
+
+        <div>
+            <label for="mothername">Mother Name: </label>
+            <input type="text" id="mothername" placeholder="Mother name" required>
+            <p class="hidden" id="hiddenmotherName">Enter mother Name</p><br>
+        </div>
+
+        <div>
+            <label for="AGE">Age: </label>
+            <input type="text" id="age" placeholder="Age" required>
+            <p class="hidden" id="hiddenage">Enter Proper Name</p><br>
+        </div>
+
+        <div>
+            <label for="DOB">Date of Birth: </label>
+            <input type="date" id="dob" placeholder="DOB" required><br></br>
+        </div>
+
+        <label>Gender: </label>
+        <div class="radio-group">
+        <label><input type="radio" name="gender" value="Male"> Male</label><br>
+        <label><input type="radio" name="gender" value="Female"> Female</label><br>
+        <label><input type="radio" name="gender" value="Other"> Other</label><br></br>
+        </div>
+
+        <div>
+            <label for="Address">Address: </label>
+            <textarea id="add" placeholder="Enter your Address here..." rows="5"></textarea>
+        <p class="hidden" id="hiddenaddress">Enter minimum 50 words as Address</p><br>
+       
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="Email Address" required>
+            <p class="hidden" id="hiddenEmail">Enter Proper Email address</p><br>
+        </div>
+        
+        <div>
+            <label for="phno">Phone Number: </label>
+            <input type="text" id="phno" placeholder="Phone Number" required>
+            <p class="hidden" id="hiddenPhno">Enter Proper Phone Number</p><br>
+        </div>
+
+        <label for="Course">Course:</label>
+            <select id="Course">
+            <option value="Computer Science">Computer Science</option>
+            <option value="electronic communication">electronic communication</option>
+            <option value="Mechenical">Mechenical</option>
+            <option value="Civil">Civil</option><br></br>
+        </select><br></br>
+
+        <div class="button-container">
+            <button type="submit" onclick="submit()" id="submitBtn" class="submit-button">Submit</button>
+        </div>
+        </div>
+    
+</body>
+</html>
