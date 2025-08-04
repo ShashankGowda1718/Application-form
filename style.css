@@ -3,8 +3,14 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #ffffff;
+  background: #b46f14;
   font-family: 'Times New Roman', Times, serif;
+}
+.hidden{
+  display: none;
+  color: #ff2c2c;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
 }
 #display {
   width:95%;
